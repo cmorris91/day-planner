@@ -7,17 +7,7 @@ var today = moment();
 $("#currentDay").text(today.format("MMM Do, YYYY"));
 
 var currentHr = moment().format('HH');
-
-var nine = $("#hour-9")
-var ten = $("#hour-10");
-var eleven = $("#hour-11");
-var twelve = $("hour-12");
-var thirteen = $("#hour-13");
-var fourteen = $("#hour-14");
-var fifteen = $("hour-15");
-var sixteen = $("hour-16");
-var seventeen = $("hour-17");
-var eighteen = $("hour-18");
+console.log(currentHr);
 
 function colorCoordinate() {
    
@@ -42,7 +32,6 @@ colorCoordinate();
 
 $(document).ready(function() {
     
-
     $("#saveButton9").on('click', function() {
         var input = $(this).siblings(".textarea").val();
         localStorage.setItem('input9', input);
@@ -94,7 +83,7 @@ function renderInputs () {
     $("#hour-9").val(localStorage.getItem('input9'));
     $("#hour-10").val(localStorage.getItem('input10'));
     $("#hour-11").val(localStorage.getItem('input11'));
-    $("#hour12").val(localStorage.getItem('input12'));
+    $("#hour-12").val(localStorage.getItem('input12'));
     $("#hour-13").val(localStorage.getItem('input13'));
     $("#hour-14").val(localStorage.getItem('input14'));
     $("#hour-15").val(localStorage.getItem('input15'));
