@@ -74,9 +74,6 @@ $(document).ready(function() {
         localStorage.setItem('input18', input);
      })
 
-
-
-
 })
 
 function renderInputs () {
@@ -91,4 +88,4 @@ function renderInputs () {
     $("#hour-17").val(localStorage.getItem('input17'));
     $("#hour-18").val(localStorage.getItem('input18'));
 
-}
+};
