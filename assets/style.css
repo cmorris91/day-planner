@@ -12,6 +12,7 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+    
   }
   
   .jumbotron {
@@ -45,18 +46,22 @@ body {
   }
   
   .past {
-    background-color: #e6e1e1;
-    color: white;
+    background-color: #deeaf9;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
   }
   
   .present {
     background-color: #d4a29f;
     color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
   }
   
   .future {
-    background-color: #8cb9bd;
-    color: white;
+    background-color: #e4d4ee;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
   }
   
   .saveBtn {
