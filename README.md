@@ -8,3 +8,11 @@ That Info is render when the page is loaded so that their previous inputs are se
 
 Depending on the current hour of the day each time block is color coded.
 
+# Links
+Deployed:
+https://cmorris91.github.io/day-planner/
+Repo:
+https://github.com/cmorris91/day-planner
+
+#Photos
+![screenshot of photo](./assets/img/screenshot.jpg)
