@@ -16,3 +16,6 @@ https://github.com/cmorris91/day-planner
 
 #Photos
 ![screenshot of photo](./assets/img/screenshot.jpg)
+
+
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)`
